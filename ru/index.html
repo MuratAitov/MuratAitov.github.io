@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Персональное портфолио – Мурат Аитов</title>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <a href="/">
+                <span>EN</span>
+            </a>
+            <span>|</span>
+            <a href="/ru">
+                <span>RU</span>
+            </a>
+        </div>
+        <div class="content">
+            <div class="content__hello">
+                <img class="content__hello-img" src="/assets/img/avatar.png" alt="Avatar">
+                <div class="content__hello-text">
+                    <span class="content__name">
+                        <a href="/">Привет, я Мурат.</a>
+                    </span>
+                    <span class="content__description">Студент Computer Science</span>
+                    <nav class="content__social">
+                        <a href="https://www.linkedin.com/in/murataitov/" target="_blank" class="content__social-item">
+                            <img src="/assets/img/icons/in.svg" alt="LinkedIn">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://t.me/Aitov_sr" target="_blank" class="content__social-item">
+                            <img src="/assets/img/icons/telegram.svg" alt="Telegram">
+                            <span>Telegram</span>
+                        </a>
+                        <a href="https://github.com/MuratAitov" target="_blank" class="content__social-item">
+                            <img src="/assets/img/icons/github.svg" alt="GitHub">
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:murat.aitov@icloud.com" class="content__social-item">
+                            <img src="/assets/img/icons/email.png" alt="Email">
+                            <span>Email</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="content__main">
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p>Я всегда знал, что технологии станут моим путем. С ранних лет меня интересовало, как все устроено, и это любопытство естественным образом переросло в программирование и создание систем.</p>
+                        <p>Сейчас я студент Computer Science (специализация Data Science) в Университете Гонзага, выпуск 2026 года. Мой основной фокус — разработка программного обеспечения, наука о данных и машинное обучение.</p>
+                        <p>Я думаю не только о коде — меня волнует архитектура, бизнес-ценность и создание продуктов, которые люди действительно используют. Клиенты, коллеги и преподаватели часто отмечают мою способность сочетать техническую глубину с практическими результатами.</p>
+                        <p>Почти каждый проект, в котором я участвовал, приносил новые рекомендации и новые возможности — и это то, чем я больше всего горжусь.</p>
+                    </div>
+                </div>
+                <h1 class="content__about-header">Текущая Работа</h1>
+                <div id="working-now" class="projects-section">
+                    <div class="content__main-item project" draggable="true" data-project="loggers">
+                        <a data-fslightbox href="/assets/img/logs.png">
+                            <img src="/assets/img/logs.png" alt="Loggers" style="width: 100%; max-width: 400px; height: auto;">
+                        </a>
+                        <div>
+                            <div class="main-item__title">
+                                <span>Loggers – Система Обнаружения Аномалий в Логах</span>
+                            </div>
+                            <div class="main-item__description">
+                                <p>Продвинутая система анализа логов, разработанная для оценки лог-данных компании и обнаружения аномалий с использованием современных методов машинного обучения. Проект объединяет множество подходов, включая глубокое обучение, обработку естественного языка и статистическое моделирование для обнаружения необычных паттернов, угроз безопасности и системных нарушений в крупномасштабных наборах лог-данных.</p>
+                            </div>
+                            <div class="main-item__subdescription">
+                                <p><span>Технологии:</span> LSTM, BERT, Токенизация, Drain3, Воротные Рекуррентные Блоки, Модели Маркова, Python, Глубокое Обучение</p>
+                                <p class="main-item__links"><span style="color: #666;">В Разработке</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__main-item project" draggable="true" data-project="robotics">
+                        <div>
+                            <div class="main-item__title">
+                                <span>Проект по Робототехнике</span>
+                            </div>
+                            <div class="main-item__description">
+                                <p>Скоро! Увлекательный проект по робототехнике, который в настоящее время находится на стадии планирования и разработки. Подробности будут раскрыты по мере продвижения проекта.</p>
+                            </div>
+                            <div class="main-item__subdescription">
+                                <p><span>Технологии:</span> Определяются</p>
+                                <p class="main-item__links"><span style="color: #666;">Скоро</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="content__about-header">Последние Проекты</h1>
+                <div id="recent-projects" class="projects-section">
+                    <div class="content__main-item project" draggable="true" data-project="smartenroll">
+                        <a data-fslightbox href="/assets/img/smartenroll.png">
+                        <img src="/assets/img/smartenroll.png" alt="SmartEnroll" style="width: 100%; max-width: 400px; height: auto;">
+                    </a>
+                    <div>
+                        <div class="main-item__title">
+                            <span>SmartEnroll – Планировщик Курсов</span>
+                        </div>
+                        <div class="main-item__description">
+                            <p>Веб-система регистрации, которая помогает студентам выбирать курсы и избегать конфликтов расписания. Обеспечивает продвинутую фильтрацию, обнаружение конфликтов в реальном времени и персонализированные пути к выпуску.</p>
+                        </div>
+                        <div class="main-item__subdescription">
+                            <p><span>Технологии:</span> Flask, Python, Supabase, React, Scikit-learn, TensorFlow</p>
+                            <p class="main-item__links"><a href="https://github.com/MuratAitov/SmartEnroll" target="_blank"><span>Исходный код</span></a><span>|</span><a href="/projects/smartenroll.html" target="_blank"><span>Демо</span></a> </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="content__main-item project" draggable="true" data-project="condor">
+                        <a data-fslightbox href="/assets/img/condor.png">
+                        <img src="/assets/img/condor.png" alt="Condor" style="width: 100%; max-width: 400px; height: auto;">
+                    </a>
+                    <div>
+                        <div class="main-item__title">
+                            <span>Condor – Прогнозирование S&P 500</span>
+                        </div>
+                        <div class="main-item__description">
+                            <p>Специализированная ML-система для 15-минутного прогнозирования S&P 500, оптимизированная для опционных стратегий Iron Condor. Система определяет периоды низкой волатильности для прибыльных опционных спрэдов. Использует проприетарные алгоритмы (детали ограничены NDA).</p>
+                        </div>
+                        <div class="main-item__subdescription">
+                            <p><span>Технологии:</span> Python, Machine Learning, Deep Learning, Data Science</p>
+                            <p class="main-item__links"><a href="https://github.com/MuratAitov/condor" target="_blank"><span>Приватный репозиторий</span></a><span>|</span><a href="/projects/condor.html" target="_blank"><span>Демо</span></a> </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="content__main-item project" draggable="true" data-project="parsimony">
+                        <a data-fslightbox href="/assets/img/parsimony.png">
+                        <img src="/assets/img/parsimony.png" alt="Parsimony" style="width: 100%; max-width: 400px; height: auto;">
+                    </a>
+                    <div>
+                        <div class="main-item__title">
+                            <span>Parsimony – Парсер Синтаксических Деревьев и Пользовательский Словарь</span>
+                        </div>
+                        <div class="main-item__description">
+                            <p>Прорывной исследовательский NLP-проект, сфокусированный на создании интеллектуальной системы словаря, которая понимает значения слов на основе синтаксического контекста. Основной задачей было построение комплексного словаря из всего корпуса Wikipedia и обучение моделей для присвоения правильных значений слов на основе грамматической позиции в структуре предложения.</p>
+                        </div>
+                        <div class="main-item__subdescription">
+                            <p><span>Технологии:</span> Python, Elasticsearch, Пользовательские NLP-Парсеры, Обработка Данных Wikipedia, Алгоритмы Синтаксических Деревьев</p>
+                            <p class="main-item__links"><a href="https://parsimony-server.web.app" target="_blank"><span>Живое Демо</span></a><span>|</span><a href="/projects/parsimony.html" target="_blank"><span>Подробности</span></a> </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h1 class="content__about-header">
+                    Другие Проекты 
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="other-projects-toggle" checked>
+                        <span class="toggle-slider"></span>
+                    </label>
+                </h1>
+                <div id="other-projects" class="projects-section">
+                    <div class="content__main-item project" draggable="true" data-project="games">
+                        <div>
+                            <div class="main-item__title">
+                                <span>Проекты Разработки Игр</span>
+                            </div>
+                            <div class="main-item__description">
+                                <p><strong>Шахматный Движок (Python):</strong> Полная реализация шахматной игры с проверкой ходов, определением шаха/мата и ИИ-противником на основе алгоритма minimax с альфа-бета отсечением. Включает чистый ООП-дизайн с отдельными классами для фигур, состояния доски и игровой логики.</p>
+                                <p><strong>Монополия в Терминале (C++):</strong> Полная консольная реализация Монополии с управлением недвижимостью, банковской системой, карточками случая/общественной казны и пошаговым геймплеем. Демонстрирует продвинутые концепции C++, включая наследование, полиморфизм и управление памятью.</p>
+                            </div>
+                            <div class="main-item__subdescription">
+                                <p><span>Технологии:</span> Python, C++, Объектно-Ориентированное Программирование, Алгоритмы Игровой Логики</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__main-item project" draggable="true" data-project="lifestyle">
+                        <div>
+                            <div class="main-item__title">
+                                <span>Трекер Одежды</span>
+                            </div>
+                            <div class="main-item__description">
+                                <p>Личная система управления гардеробом, разработанная для оптимизации использования одежды и планирования образов. Включает анализ паттернов использования, отслеживание частоты ношения и интеллектуальные рекомендации образов на основе погоды, мероприятия и личных стилевых предпочтений. Включает визуализацию данных для аналитики использования одежды и предложения по оптимизации гардероба.</p>
+                            </div>
+                            <div class="main-item__subdescription">
+                                <p><span>Технологии:</span> JavaScript, Python, Визуализация Данных, Личная Аналитика</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__main-item project" draggable="true" data-project="telegram-bots">
+                        <div>
+                            <div class="main-item__title">
+                                <span>Telegram Боты Автоматизации</span>
+                            </div>
+                            <div class="main-item__description">
+                                <p><strong>Sup Olymp Бот:</strong> Образовательный ассистент, помогающий студентам найти оптимальные олимпиады по программированию для поступления в университет без вступительных экзаменов (БВИ). Включает базу данных соревнований, проверку правомочности и персонализированные рекомендации на основе профиля студента и академических целей.</p>
+                                <p><strong>Бот Оповещений о Визовых Слотах:</strong> Система мониторинга в реальном времени доступности встреч на визу в множестве консульств. Реализует веб-скрапинг, систему уведомлений и управление подписками пользователей с мгновенными оповещениями при появлении слотов.</p>
+                            </div>
+                            <div class="main-item__subdescription">
+                                <p><span>Технологии:</span> Python, Telegram Bot API, Веб-Скрапинг, Автоматизация, Уведомления</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <span>© Мурат Аитов</span>
+            </div>
+            <div>
+                <nav class="footer__social">
+                    <a href="https://www.linkedin.com/in/murataitov/" target="_blank" class="footer__social-item">
+                        <img src="/assets/img/icons/in.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://t.me/Aitov_sr" target="_blank" class="footer__social-item">
+                        <img src="/assets/img/icons/telegram.svg" alt="Telegram">
+                    </a>
+                    <a href="https://github.com/MuratAitov" target="_blank" class="footer__social-item">
+                        <img src="/assets/img/icons/github.svg" alt="GitHub">
+                    </a>
+                    <a href="mailto:murat.aitov@icloud.com" class="footer__social-item">
+                        <img src="/assets/img/icons/email.png" alt="Email">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/scripts/fslightbox.js"></script>
+    <script src="/assets/scripts/portfolio-interactive.js"></script>
+</body>
+</html>

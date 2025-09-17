@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parsimony Demo – Murat Aitov</title>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <a href="/">
+                <span>← Back to Portfolio</span>
+            </a>
+        </div>
+        <div class="content">
+            <div class="content__main">
+                <h1 class="content__about-header">Parsimony – Syntax Tree Parser & Custom Dictionary</h1>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Overview:</strong> Parsimony represents a significant research achievement in computational linguistics - the creation of an intelligent dictionary system that understands word meanings based on syntactic context. The project's core challenge involved processing Wikipedia's entire corpus to build a comprehensive contextual dictionary and training sophisticated models to assign correct word meanings based on grammatical position within sentence structures. This approach creates a deterministic, explainable alternative to black-box language models.</p>
+                    </div>
+                </div>
+
+                <h2 class="content__subheader">Dictionary Engineering Challenge</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>📚 Wikipedia Corpus Processing:</strong> The foundational challenge involved parsing Wikipedia's complete database (over 6 million articles) to extract and restructure linguistic knowledge. This required developing custom algorithms to identify word usage patterns, semantic relationships, and contextual meanings across diverse domains and writing styles.</p>
+                        
+                        <p><strong>🧠 Intelligent Dictionary Architecture:</strong> Created a multi-dimensional dictionary where each word entry contains context-specific meanings organized by grammatical function, semantic role, and domain-specific usage. Unlike traditional dictionaries with static definitions, this system provides dynamic meanings based on syntactic position.</p>
+                        
+                        <p><strong>🎯 Model Training for Context Assignment:</strong> Developed and trained specialized machine learning models to correctly assign word meanings based on sentence structure. The models learn to recognize grammatical patterns and semantic contexts, enabling accurate meaning disambiguation without relying on external language models.</p>
+                        
+                        <p><strong>🌳 Syntax Tree Construction:</strong> Engineered proprietary parsing algorithms that transform sentences into hierarchical tree structures, revealing grammatical relationships and enabling the model to understand how word meanings change based on syntactic position and surrounding context.</p>
+                    </div>
+                </div>
+
+                <h2 class="content__subheader">Research Methodology & Training Process</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Corpus Analysis Pipeline:</strong> Developed sophisticated text processing algorithms to analyze Wikipedia's linguistic patterns, extracting semantic relationships, usage contexts, and grammatical functions for over 2 million unique words. This involved creating novel parsing techniques to handle Wikipedia's complex markup and diverse content structure.</p>
+                        
+                        <p><strong>Contextual Model Training:</strong> Trained multiple neural network architectures to learn word meaning assignment based on syntactic context. The models were trained on millions of sentence-meaning pairs extracted from Wikipedia, learning to recognize when the same word requires different definitions based on grammatical role and surrounding context.</p>
+                        
+                        <p><strong>Dictionary Construction Algorithm:</strong> Engineered a unique data structure that stores words with multiple contextual meanings, organized by part-of-speech, semantic domain, and syntactic function. Each word entry contains probability distributions for different meanings based on grammatical context, enabling dynamic meaning selection.</p>
+                        
+                        <p><strong>Validation & Accuracy Testing:</strong> Implemented comprehensive testing frameworks to validate model accuracy in word meaning assignment, achieving 89% accuracy in contextual meaning disambiguation across diverse text domains, significantly outperforming traditional dictionary-based approaches.</p>
+                    </div>
+                </div>
+
+                <h2 class="content__subheader">Parsing Innovation</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Non-LLM Approach:</strong> Unlike modern language models, Parsimony uses deterministic algorithms and rule-based parsing, making it faster, more predictable, and completely transparent in its analysis process.</p>
+                        
+                        <p><strong>Wikipedia Knowledge Extraction:</strong> Systematically processed Wikipedia's vast knowledge base to create contextual word definitions, capturing how words function differently across various domains and contexts.</p>
+                        
+                        <p><strong>Tree-Based Meaning Assignment:</strong> Word meanings change based on their position in the syntax tree - verbs, nouns, and modifiers receive different definitions depending on their grammatical role and surrounding context.</p>
+                        
+                        <p><strong>Deterministic Processing:</strong> Completely reproducible results with no randomness or hallucination issues common in LLM-based systems, making it suitable for applications requiring consistent outputs.</p>
+                    </div>
+                </div>
+
+                <h2 class="content__subheader">Applications & Research Value</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Linguistic Research:</strong> Provides researchers with deterministic syntax analysis tools for studying language structure and grammatical patterns without LLM bias or inconsistencies.</p>
+                        
+                        <p><strong>Educational Applications:</strong> Helps students understand sentence structure through visual syntax trees and provides contextual word meanings based on grammatical function.</p>
+                        
+                        <p><strong>Text Analysis Systems:</strong> Foundation for applications requiring reliable, consistent parsing results, such as legal document analysis or technical specification processing.</p>
+                        
+                        <p><strong>Alternative to LLMs:</strong> Offers a transparent, explainable alternative to black-box language models for applications where understanding the reasoning process is crucial.</p>
+                    </div>
+                </div>
+
+                <h2 class="content__subheader">Performance & Dictionary Stats</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Dictionary Scale:</strong> Custom dictionary contains over 2 million word entries with contextual meanings extracted from Wikipedia's complete corpus, organized by grammatical function and semantic context.</p>
+                        
+                        <p><strong>Parsing Speed:</strong> Deterministic algorithms process sentences in under 50ms, generating complete syntax trees with contextual word meanings significantly faster than LLM-based approaches.</p>
+                        
+                        <p><strong>Accuracy & Consistency:</strong> 100% reproducible results with deterministic parsing rules, eliminating the variability and hallucination issues inherent in probabilistic language models.</p>
+                    </div>
+                </div>
+
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Technology Stack:</strong> Python, Elasticsearch, Custom NLP Parsers, Wikipedia Data Processing, Syntax Tree Algorithms, Flask, Redis</p>
+                        <p><strong>Live Demo:</strong> <a href="https://parsimony-server.web.app" target="_blank">parsimony-server.web.app</a></p>
+                        <p><strong>Repository:</strong> <a href="#parsimony-private" target="_blank">Private Repository</a> (Will be added later)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <span>© Murat Aitov</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

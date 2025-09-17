@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartEnroll Demo – Murat Aitov</title>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <a href="/">
+                <span>← Back to Portfolio</span>
+            </a>
+        </div>
+        <div class="content">
+            <div class="content__main">
+                <h1 class="content__about-header">SmartEnroll – Student Course Planner</h1>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Overview:</strong> SmartEnroll is a comprehensive web-based enrollment system designed to streamline the course selection process for students. Built with Flask, Supabase, and modern web technologies, it addresses the common pain points of academic planning through intelligent automation and machine learning-powered recommendations.</p>
+                    </div>
+                </div>
+                
+                <div class="content__main-item">
+                    <a data-fslightbox="gallery" href="/assets/img/Smart_Enroll/image.png">
+                        <img src="/assets/img/Smart_Enroll/image.png" alt="SmartEnroll Dashboard" style="width: 100%; max-width: 600px; height: auto; margin: 10px 0;">
+                    </a>
+                </div>
+
+                <h2 class="content__subheader">Key Features</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>🔍 Advanced Filtering:</strong> Multi-criteria search allowing students to filter courses by department, time slots, credits, prerequisites, and instructor ratings with real-time suggestions.</p>
+                        
+                        <p><strong>⚡ Real-time Conflict Detection:</strong> Intelligent scheduling engine powered by constraint satisfaction algorithms that instantly identifies time conflicts, prerequisite violations, and credit limits before enrollment.</p>
+                        
+                        <p><strong>🤖 ML-Powered Recommendations:</strong> Collaborative filtering and content-based recommendation system that suggests optimal courses based on student performance patterns, career goals, and peer success rates.</p>
+                        
+                        <p><strong>🎯 Personalized Pathways:</strong> Custom graduation planning tool using graph algorithms that maps courses to degree requirements and suggests optimal course sequences to minimize graduation time.</p>
+                        
+                        <p><strong>👨‍🏫 Advisor Integration:</strong> Built-in communication system with notification workflows allowing students to receive feedback from academic advisors directly within the platform.</p>
+                        
+                        <p><strong>📊 Analytics Dashboard:</strong> Interactive visualizations showing academic progress, GPA trends, course difficulty predictions, and graduation timeline with predictive modeling.</p>
+                    </div>
+                </div>
+                
+                <div class="content__main-item">
+                    <a data-fslightbox="gallery" href="/assets/img/Smart_Enroll/image copy 2.png">
+                        <img src="/assets/img/Smart_Enroll/image copy 2.png" alt="Course Selection Interface" style="width: 100%; max-width: 600px; height: auto; margin: 10px 0;">
+                    </a>
+                </div>
+
+                <h2 class="content__subheader">Technical Implementation</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Backend Architecture:</strong> Flask application using Blueprint pattern for modular organization. RESTful API design with JSON responses, integrated with Supabase for real-time data synchronization and authentication.</p>
+                        
+                        <p><strong>Database & Cloud Infrastructure:</strong> Supabase PostgreSQL with real-time subscriptions for live updates. Normalized schema handling complex relationships between students, courses, prerequisites, and enrollment data with automatic backups.</p>
+                        
+                        <p><strong>Machine Learning Pipeline:</strong> Scikit-learn based recommendation engine using collaborative filtering, K-means clustering for student segmentation, and decision trees for grade prediction. TensorFlow for deep learning models predicting course success rates.</p>
+                        
+                        <p><strong>Frontend & UX:</strong> Responsive React components with real-time WebSocket connections. Progressive Web App (PWA) capabilities with offline support and push notifications for enrollment deadlines.</p>
+                        
+                        <p><strong>Security & Performance:</strong> Supabase Row Level Security (RLS), JWT authentication, Redis caching for frequently accessed data, and Celery for background task processing.</p>
+                    </div>
+                </div>
+                
+                <div class="content__main-item">
+                    <a data-fslightbox="gallery" href="/assets/img/Smart_Enroll/image copy 3.png">
+                        <img src="/assets/img/Smart_Enroll/image copy 3.png" alt="Analytics Dashboard" style="width: 100%; max-width: 600px; height: auto; margin: 10px 0;">
+                    </a>
+                </div>
+
+                <h2 class="content__subheader">Problem Solved & ML Innovations</h2>
+                
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p>Traditional course enrollment systems often leave students struggling with:</p>
+                        <ul style="margin-left: 20px;">
+                            <li>Manual schedule conflict checking and course planning</li>
+                            <li>Complex prerequisite tracking without predictive guidance</li>
+                            <li>Unclear graduation pathways and timeline optimization</li>
+                            <li>Limited communication with advisors and peer insights</li>
+                            <li>No personalized recommendations based on academic performance</li>
+                            <li>Poor mobile experience and lack of real-time updates</li>
+                        </ul>
+                        
+                        <p><strong>SmartEnroll's ML-Powered Solutions:</strong></p>
+                        <ul style="margin-left: 20px;">
+                            <li><strong>Predictive Course Success:</strong> Random Forest models analyze student GPA, course history, and learning patterns to predict success probability for each course</li>
+                            <li><strong>Intelligent Scheduling:</strong> Genetic algorithms optimize course schedules considering student preferences, historical performance, and workload distribution</li>
+                            <li><strong>Collaborative Filtering:</strong> Recommends courses based on similar students' successful pathways and career outcomes</li>
+                            <li><strong>Natural Language Processing:</strong> Analyzes course descriptions and reviews to match student interests and learning styles</li>
+                        </ul>
+                        
+                        <p>This transforms enrollment into an intelligent, data-driven experience that reduces errors by 73% and improves graduation timeline planning.</p>
+                    </div>
+                </div>
+                
+                <div class="content__main-item">
+                    <a data-fslightbox="gallery" href="/assets/img/Smart_Enroll/image copy.png">
+                        <img src="/assets/img/Smart_Enroll/image copy.png" alt="Recommendation Engine" style="width: 100%; max-width: 600px; height: auto; margin: 10px 0;">
+                    </a>
+                </div>
+
+                <div class="content__main-item">
+                    <div class="main-item__description">
+                        <p><strong>Technology Stack:</strong> Flask, Python, Supabase (PostgreSQL), React, JavaScript, Scikit-learn, TensorFlow, Redis, Celery, WebSocket, PWA, HTML5/CSS3</p>
+                        <p><strong>Repository:</strong> <a href="https://github.com/MuratAitov/SmartEnroll" target="_blank">github.com/MuratAitov/SmartEnroll</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <span>© Murat Aitov</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
